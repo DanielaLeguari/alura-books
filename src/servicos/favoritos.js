@@ -8,6 +8,16 @@ async function getLivrosFavoritos() {
     return response.data;
 }
 
+async function postFavorito(id) {
+    await livrosFavoritosAPI.post(`/${id}`)
+}
+
+async function deleteFavorito(id) {
+    await livrosFavoritosAPI.delete(`/${id}`);
+}
+
 export {
     getLivrosFavoritos,
+    postFavorito,
+    deleteFavorito,
 }
