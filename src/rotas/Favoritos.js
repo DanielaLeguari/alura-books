@@ -1,6 +1,4 @@
 import React from 'react';
-import Pesquisa from '../componentes/Pesquisa';
-
 import styled from 'styled-components';
 
 const AppContainer = styled.div`
@@ -12,7 +10,7 @@ const AppContainer = styled.div`
 const Favoritos = () => {
     return (
         <AppContainer>
-            <Pesquisa />
+           
         </AppContainer>
 
     );
